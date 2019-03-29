@@ -1,0 +1,35 @@
+baseURL = "https://nodule.dev"
+defaultContentLanguage = "en"
+disqusShortname = "nodule"
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
+pygmentsCodeFences = true
+pygmentsStyle = "native"
+pygmentsUseClasses =  true
+theme = "simplicity"
+title = "Nodule - Opinionated Node APIs"
+[author]
+  homepageText = "nodule"
+  name = "nodule"
+[imaging]
+  anchor = "smart"
+  resampleFilter = "box"
+  quality = 75
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+[params]
+  adsenseClient = ''
+  adsenseSlot = ''
+  description = "Opinionated Node APIs"
+  licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
+  displayPostLanguage = true
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+[pygmentsOptions]
+  linenos = false
